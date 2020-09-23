@@ -6,10 +6,5 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".fragments.InvestFragment">
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/ic_baseline_show_chart_24"
-        app:tint="@color/colorPrimaryDark"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
