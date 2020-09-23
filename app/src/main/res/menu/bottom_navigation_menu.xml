@@ -13,16 +13,16 @@
     <item
         android:id="@+id/page_portfolio"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_bar_chart_24"
+        android:icon="@drawable/ic_bar_graph"
         android:title="@string/txt_lable_portfolio"/>
     <item
         android:id="@+id/page_news"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_wifi_24"
+        android:icon="@drawable/ic_rss"
         android:title="@string/txt_lable_news"/>
     <item
         android:id="@+id/page_invest"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_show_chart_24"
+        android:icon="@drawable/ic_money_graph_with_up_arrow"
         android:title="@string/txt_lable_invest"/>
 </menu>
