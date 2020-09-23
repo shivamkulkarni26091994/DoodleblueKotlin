@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="tv_data_name"
+            app:layout_constraintEnd_toStartOf="@+id/tv_price"
+            app:layout_constraintStart_toEndOf="@+id/circular_img_view"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_price"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="2dp"
+            android:text="tv_data_price"
+            app:layout_constraintEnd_toStartOf="@+id/tv_change"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/greencolor"
+            android:id="@+id/tv_change"
+            android:layout_width="75dp"
+            android:layout_marginLeft="2dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:text="tv_data_change"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circular_img_view"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@color/redcolor"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_name"
+            app:layout_constraintStart_toEndOf="@+id/tv_number"
+            app:layout_constraintTop_toTopOf="@+id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:text="9"
+            android:textColor="@color/bg_Global_cap"
+            android:textSize="12sp"
+            android:gravity="right"
+            app:layout_constraintBottom_toBottomOf="@+id/circular_img_view"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/circular_img_view" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/bg_Global_cap"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name"
+            tools:layout_editor_absoluteX="3dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

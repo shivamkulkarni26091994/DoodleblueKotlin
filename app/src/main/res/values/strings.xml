@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Doodleblue</string>
+    <string name="txt_lable_prices">Prices</string>
+    <string name="txt_lable_favouite">Favourite</string>
+    <string name="txt_lable_portfolio">Portfolio</string>
+    <string name="txt_lable_news">News</string>
+    <string name="txt_lable_invest">Invest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
